@@ -1,0 +1,258 @@
+/*
+Theme Name:   betheme child theme
+Description:  Write here a brief description about your child-theme
+Author:       Marko
+Author URL:   http://foto-art-badrov.ayd.hr
+Template:     betheme
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  betheme-child
+*/
+
+/* Write here your own personal stylesheet */
+
+
+
+/********************************************************** NASLOVNA *******************************/
+.cn-button.bootstrap {
+    background: #ffdf00;
+	color: #000;
+}
+
+/**** traka na vrhu stranice ***/
+.header-classic #Action_bar {
+    background-color: #ffdf00 !important;
+}
+div#Action_bar li {
+    color: black !important;
+}
+#Action_bar .contact_details a {
+    color: black !important;
+}
+#Top_bar .responsive-menu-toggle, #Header_creative .creative-menu-toggle, #Header_creative .responsive-menu-toggle {
+    color: #222222!important;
+}
+/*                                          *****************  SLIDER */
+.section.mcb-section.mcb-section-aov04brb9 {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+.desno img.scale-with-grid, #Content img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+.desno {
+    float: right;
+    width: 49%;
+}
+.lijevo p {
+    width: 88%;
+    margin: 0 auto;
+    line-height: 32px;
+}
+.lijevo h2 {
+    padding-bottom: 60px;
+    padding-top: 41px;
+    font-size: 36px;
+    line-height: 43px;
+}
+.lijevo {
+    width: 48%;
+    float: left;
+}
+/*                                         ***************   O NAMA */
+
+.onama p {
+    font-size: 22px;
+    line-height: 28px;
+    color: black;
+    padding-bottom: 15px;
+}
+.onama h2 {
+    font-size: 52px;
+    padding-bottom: 20pX;
+}
+/* buttoni  */
+.but1 {
+    background-color: #ffdf00 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+.but2 {
+    background-color: black !important;
+    color: #ffdf00 !important;
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+.buttoni {
+    text-align: center;
+}
+/******************************************                  IKONE */
+div#o-nama {
+    padding: 20px !important;
+}
+/***************************************                     SLIKE USLUGA */
+
+/*****************************                              TESTEMONIALI */
+
+.testemoniali {
+    font-size: 20px;
+    color: black;
+    line-height: 25px;
+}
+
+/************                                          KONTAKT */
+
+.kontakttekst p {
+    text-align: center;
+    font-size: 22px;
+    line-height: 35px;
+    color: black;
+    width: 70%;
+    margin-left: 50px;
+	    padding-bottom: 30px
+}
+
+
+.section.mcb-section.mcb-section-3ejztd0su {
+    padding-top: 20px !important;
+}
+
+
+/**********************************************                   USLUGE HOVERI */
+
+.hoveri h2 {
+    font-size: 52px;
+    padding-top: 35px;
+}
+.textusluga p {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    line-height: 33px;
+    padding-top: 40px;
+    width: 85%;
+    margin: 0 auto;
+}
+.textusluga h2 {
+    text-align: center;
+    font-size: 39px;
+    color: black;
+    line-height: 50px;
+    padding-top: 32px;
+}
+.podaci {
+    font-size: 18px;
+    padding-top: 120px;
+}
+.image_frame, .wp-caption, .google-map, .icon_box .icon_wrapper, .content_slider .content_slider_ul, .author-box .avatar-wrapper, #comments .commentlist > li .photo, .edd_download_image {
+    border-color: #ffff0000 !Important;
+}
+.image_frame .image_wrapper .mask, .edd_download_image:after {
+    box-shadow: none !important;
+}
+
+/* Global CSS */
+
+.column_map_basic iframe {
+    width: 100%;
+}
+.column_visual.podaci a, .column_visual.podaci a:hover {
+    color: #626467 !important;
+}
+
+/************** MOIBLNA ***************/
+
+@media only screen and (max-width: 767px){
+	.lijevo{
+		float:none;
+		width:100%;
+	}
+	.desno{
+		float:none;
+		width:100%;
+	}
+.lijevo h2 {
+    padding-bottom: 5px;
+    padding-top: 1px;
+    font-size: 28px;
+    line-height: 43px;
+}
+.sec_icons p {
+    font-size: 20px !important;
+    font-weight: bolder;
+}
+div#o-nama {
+    padding: 0px !important;
+}	
+.section.mcb-section.mcb-section-3ejztd0su {
+    padding-top: 0px !important;
+}	
+.wrap.mcb-wrap.mcb-wrap-wa3hv35mn.one.valign-top.clearfix {
+    margin-top: -80px;
+}
+.lijevo h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 36px;
+    line-height: 43px;
+}	
+.textusluga h2 {
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    line-height: 33px;
+    padding-top: 25px;
+}	
+.textusluga p {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    line-height: 33px;
+    padding-top: 0px;
+    width: 96%;
+    margin: 0 auto;
+}	
+.podaci {
+    font-size: 18px;
+    padding-top: 10px;
+}	
+.mob_flexbox .mcb-wrap-inner {
+    display: flex;
+    flex-direction: column-reverse;
+}		
+/* Header */
+#Header_wrapper {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+}
+/* PAGE kontakt */
+.wrap.mcb-wrap.mcb-wrap-sj2mwyrw9 {
+    margin-top: 50px;
+}
+}
+/***kraj 767 max **/
+
+@media only screen and (max-width: 1239px) and (min-width: 768px){
+	
+.textusluga h2 {
+    font-size: 27px;
+    line-height: 30px;
+}
+.textusluga p {
+    font-size: 18px;
+    padding-top: 12px;
+    line-height: 27px;
+}	
+
+}
+
+
+
+
+
+
+
